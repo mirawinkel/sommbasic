@@ -51,6 +51,17 @@ function pasta() {
     button2.addEventListener('click', whitePasta);
     button3.addEventListener('click', otherPasta);
 }
+
+function cheese() {
+    question.innerHTML = 'What style of cheese are you enjoying?';
+    button1.innerHTML = 'Creamy';
+    button2.innerHTML = 'Hard';
+    button3.innerHTML = 'Blue';
+    button1.addEventListener('click', creamyCheese);
+    button2.addEventListener('click', hardCheese);
+    button3.addEventListener('click', blueCheese);
+}
+
 function apps() {
     question.innerHTML = 'What style of appetizer are you enjoying?';
     button1.innerHTML = 'Fried';
@@ -74,7 +85,7 @@ function dessert() {
     button3.removeEventListener('click', dessert);
     button1.addEventListener('click', meat);
     button2.addEventListener('click', veggie);
-    button3.addEventListener('click', pasta);
+    button3.addEventListener('click', cheese);
 }
 
 
