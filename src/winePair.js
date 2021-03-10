@@ -37,7 +37,7 @@ function white() {
     button3.addEventListener('click', sparkling);
 }
 function sparkling() {
-    question.innerHTML = 'Will you just drink the bubbles nowg?';
+    question.innerHTML = 'Will you just drink the bubbles now?';
     button1.innerHTML = 'Yes';
     button2.innerHTML = 'Bubbles are life';
     button3.innerHTML = 'Is there More?';
